@@ -1,0 +1,14 @@
+.towhid{
+    border-width: 5px;
+    border-style: solid;
+    border-color: green red blue black;
+    padding: 50px;
+    border-radius: 5px 10px 20px 30px;
+}
+
+h1{
+    border-width: 5px;
+    border-style: solid dotted outset dashed;
+    border-color: red green black blue;
+    padding: 100px;
+}

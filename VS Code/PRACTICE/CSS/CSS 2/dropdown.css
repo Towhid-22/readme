@@ -1,0 +1,76 @@
+/* ul{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+ul li a:hover{
+    background: green;
+}
+ul li .dropdown-content a{
+    display: block;
+    color: #333;
+}
+ul li .dropdown-content a:hover{
+    background: greenyellow;
+}
+ul li .dropdown-content{
+    background: wheat;
+    display: none;
+    position: absolute;
+    min-width: 500px;
+    padding: 0px;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+
+ul{
+    margin: 0;
+    padding: 0;
+    background: wheat;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: black;
+}
+ul li a:hover{
+    background: greenyellow;
+}
+
+ul li .dropdown-content a{
+    display: block;
+    color: blue;
+}
+ul li .dropdown-content{
+    display: none;
+    position: absolute;
+    background: green;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+ul li .dropdown-content a:hover{
+    background: greenyellow;
+}

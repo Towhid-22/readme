@@ -1,0 +1,45 @@
+body{
+    background: wheat;
+    padding: 5px;
+    text-align: justify;
+}
+.towhid{
+    display: flex;
+    align-items: stretch;
+    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    
+}
+.towhid div{
+    padding: 20px 20px 0;
+    flex-basis: 25%;
+}
+.towhid .class1{
+    background: rgb(39, 161, 39);
+    /* flex: 3; */
+    /* order: 2; */
+}
+.towhid .class2{
+    background: rgb(192, 86, 86);
+    /* flex: 1; */
+    /* order: 3; */
+}
+.towhid .class3{
+    background: rgb(161, 121, 206);
+    /* flex: 1; */
+    /* order: 1; */
+}
+.towhid .class4{
+    background: rgb(51, 177, 135);
+    flex: 1;
+}
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    .towhid{
+        flex-direction: column;
+    }
+}

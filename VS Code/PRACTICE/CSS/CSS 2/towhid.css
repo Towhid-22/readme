@@ -1,0 +1,56 @@
+/* label{
+    display: block;
+    padding: 10px;
+}
+input, select, textarea{
+    width: 90%;
+    padding: 10px;
+}
+select{
+    width: 93.3%;
+}
+input[type="submit"]{
+    width: 200px;
+    background: green;
+    border: 2px solid black;
+}
+.search form{
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.search input{
+    float: left;
+    width: 60%;
+}
+.search input[type="submit"]{
+    float: left;
+    width: 200px;
+    padding: 10px 5%;
+}
+input[type="submit"]:hover{
+    width: 200px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+} */
+.flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.flex div{
+    padding: 20px 20px 0;
+    flex-basis: 30%;
+}
+.flex .flex1{
+    background: rgb(62, 153, 62);
+    order: 3;
+}
+.flex .flex2{
+    background: rgb(103, 102, 131);
+    order: 2;
+}
+.flex .flex3{
+    background: rgb(241, 168, 206);
+}

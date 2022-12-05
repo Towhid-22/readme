@@ -1,0 +1,86 @@
+/* img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+p{
+    clear: both;
+    text-align: justify;
+} */
+
+.box{
+    height: 200px;
+    background: red;
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+.box1{
+    background: rgb(65, 22, 22);
+}
+.box2{
+    background: green;
+}
+
+.box3{
+    background: rgb(61, 61, 230);
+}
+.box4{
+    background: brown;
+}
+
+div + p{
+    background: green;
+}
+
+div > p{
+    background: #adff2f;
+}
+
+/* div p{
+    background: hotpink;
+} */
+
+h2:nth-child(8){color: green;}
+
+h1::first-letter{
+    color: red;
+}
+
+h1::first-line{
+    color: green;
+    font-size: 50px;
+}
+
+h2::before{
+    content: url(../../MEDIA/download.png);
+}
+
+h2::after{
+    content: url(../../MEDIA/download.png);
+}
+
+.dolar{
+    width: 300px;
+    height: 300px;
+    background: url(../../jonah-pettrich-yBDfHIz_7x8-unsplash.jpg) no-repeat;
+    /* background-position: right bottom; */
+    background-size: 300px 300px;
+    overflow: hidden;
+}
+
+.lorem{
+    background: white;
+    opacity: 0.3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 115px;
+}

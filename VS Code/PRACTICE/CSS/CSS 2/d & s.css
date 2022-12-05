@@ -1,0 +1,194 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+ul li a{
+    background: green;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 2px solid blue;
+}
+ul li a:hover{
+    background: rgb(51, 51, 27);
+    border-radius: 50%;
+}
+ul li ul{
+    position: absolute;
+    left: -99999px;
+    top: 48px;
+}
+ul li:hover ul{
+    left: 0;
+}
+ul li ul li a{
+    border-radius: 0;
+    border: none;
+}
+ul li ul li a:hover{
+    border-radius: 30px;
+}
+
+.icons .towhid{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.icons .towhid li{
+    background-image: url(../../MEDIA/icon-sprite-28.png);
+    width: 84px;
+    height: 84px;
+    border: 2px solid black;
+    display: inline-block;
+    transition: 0.5s;
+}
+.icons .towhid li:hover:nth-child(1){
+    background-position: 0 -84px;
+}
+.icons .towhid li:nth-child(2){
+    background-position: -168px 0;
+}
+.icons .towhid li:hover:nth-child(2){
+    background-position: -168px -84px;
+}
+.icons .towhid li:nth-child(3){
+    background-position: -420px 0;
+}
+.icons .towhid li:hover:nth-child(3){
+    background-position: -420px -84px;
+}
+h2{
+    font-size: 60px;
+}
+
+/* media query */
+
+.box{
+    background: green;
+    width: 300px;
+    height: 300px;
+}
+@media screen and (max-width: 900px) {
+    h2{
+        font-size: 8px;
+    }
+}
+.towh{
+    width: 300px;
+    height: 300px;
+    /* background: linear-gradient(green, red, blue); */
+    /* background: linear-gradient(to right bottom, red, green, blue); */
+    /* background: linear-gradient(red 50%, green 50%); */
+    /* background: linear-gradient(rgba(142, 68, 173,0), rgba(142, 68, 173,1.0)); */
+    background: radial-gradient(red 10%, green 50%, blue 30%);
+    /* background: radial-gradient(circle, red, green, blue); */
+}
+
+h1{
+    font-size: 120px;
+    text-shadow: 1px 0 red, 0 1px red, -1px 0 red, 0 -1px red;
+}
+
+.bd{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+}
+.bd:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2), -5px -5px 5px rgba(0,0,0,.2);
+}
+h3{
+    margin: 0;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+.nature{
+    padding-bottom: 500px;
+}
+.nat{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 150px auto;
+    /* transform: translate(100px, 100px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: rotate(-50deg); */
+    /* transform: scale(3, 1); */
+    /* transform: skew(-10deg); */
+    /* transform: skewX(-10deg); */
+    /* transform: skewY(-10deg); */
+}
+.box9{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transition: width 1s, height 3s, transform 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: linear;
+}
+.box9:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+.animation1{
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: relative;
+    /* animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in; */
+    animation: animation1 5s ease-in 1s alternate backwards;
+    animation-delay: 1s;
+}
+@keyframes animation1{
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    0%{
+        background-color: orange;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: lime;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: yellow;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+    }
+}

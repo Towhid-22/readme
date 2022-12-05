@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-indent: 100px;
+    color: white;
+    background: green;
+    margin: 10px 20px;
+    padding: 20px;
+    text-align: justify;
+    border: 5px ridge red;
+    font-variant: small-caps;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background: green;
+    /* background-image: url(../../MEDIA/kris-atomic-Z5dKUnRJIiY-unsplash.jpg); */
+    /* background-size: 200px 200px; */
+    /* padding: 100px; */
+    background-repeat: no-repeat;
+    background-attachment: fixded;
+    text-align: center;
+    border: 2px solid black;
+    outline: 10px outset blue;
+    margin: 50px;
+    border-radius: 2%;
+    outline-offset: 20px;
+    display: inline-block;
+}
+
+.towhid{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px solid white;
+    outline: none;
+
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid red;
+}
+
+a{
+    font-size: 50px;
+    margin: 30px;
+}
+
+.fa-facebook{
+    font-size: 200px;
+    margin: auto;
+    color: #1a2ddf;
+}
+
+ul{
+    /* list-style-image: url(../../MEDIA/download.png);
+    list-style-position: inside;
+    text-align: justify; */
+    list-style: square inside url(../../MEDIA/download.png);
+
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: left;
+}
+
+table{
+    width: 80%;
+}
+
+th{
+    background: green;
+    color: white;
+}
+
+td{
+    font-weight: bold;
+}
+
+.m{
+    border: 2px solid green;
+    font-size: 30px;
+}
+.mn{}

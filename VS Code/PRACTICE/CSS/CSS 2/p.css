@@ -1,0 +1,42 @@
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    background: green;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+ul li a:hover{
+    background: #2ecc71;
+    border-radius: 0px;
+    color: black;
+}
+ul li ul{
+    position: absolute;
+    left: -99999px;
+    right: 0;
+}
+ul li:hover ul{
+    left: 0px;
+}
+ul li ul li{
+    display: inline-block;
+}
+ul li ul li a{
+    margin: 2px;
+    padding-right: 100px;
+    text-align: center;
+    display: block;
+}

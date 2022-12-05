@@ -1,0 +1,42 @@
+/* background */
+.towhid{
+    background-image: url(../../MEDIA/sean-brown-EOQWxAK9aNk-unsplash.jpg);
+    /* background: green; */
+    width: 100px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 50px 200px;
+}
+
+.tow{
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    display: inline-block;
+    border-radius: 100%;
+    color: white;
+    font-style: italic;
+}
+
+p{
+    font-weight: bold;
+    padding: 10px;
+    border: medium groove blue;
+    outline: thick ridge red;
+    outline-offset: 10px;
+    margin: 50px;
+    text-align: justify;
+    text-indent: 50px;
+}
+/* border */
+h2{
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
